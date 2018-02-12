@@ -1,0 +1,16 @@
+Package: repec
+Type: Package
+Title: Access RePEc Data through API
+Version: 0.1.0
+Author: Christian A. Mongeau Ospina
+Maintainer: Christian A. Mongeau Ospina <christian+r-pkg@mongeau.net>
+Description: Utilities for accessing RePEc (Research Papers in Economics)
+    through a RESTful API. You can request a code and get detailed
+    information at the following page: https://ideas.repec.org/api.html
+License: MIT + file LICENSE
+Imports:
+    jsonlite,
+    utils
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
