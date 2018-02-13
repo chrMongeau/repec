@@ -14,6 +14,10 @@
 
 getauthorshortid <- function(x, code = NA) {
 
+  if (missing(x)) {
+    stop('"x" is required. It should be a string.')
+  }
+
   if (missing(code)) {
     stop('"code" is required. See https://ideas.repec.org/api.html')
   }

@@ -16,6 +16,10 @@
 
 getauthorrecordraw <- function(x, code = NA) {
 
+  if (missing(x)) {
+    stop('"x" is required. It should be a RePEc Short-ID.')
+  }
+
   if (missing(code)) {
     stop('"code" is required. See https://ideas.repec.org/api.html')
   }
