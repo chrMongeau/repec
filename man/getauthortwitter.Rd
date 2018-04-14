@@ -20,7 +20,7 @@ Provides Twitter handle
 }
 \examples{
 \dontrun{
-getauthorrecordraw('pmo915', code = YOURCODE)
+getauthortwitter('pmo915', code = YOURCODE)
 }
 
 }
