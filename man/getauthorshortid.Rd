@@ -9,7 +9,8 @@ getauthorshortid(x, code = NA)
 \arguments{
 \item{x}{string.}
 
-\item{code}{User code required to use API. Included in every API call.}
+\item{code}{User code required to use API. Included in every API call.
+If not supplied, the REPEC_API_KEY environment variable will be used.}
 }
 \value{
 data.frame

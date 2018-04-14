@@ -7,7 +7,8 @@
 testip(code = NA)
 }
 \arguments{
-\item{code}{User code required to use API. Included in every API call.}
+\item{code}{User code required to use API. Included in every API call.
+If not supplied, the REPEC_API_KEY environment variable will be used.}
 }
 \value{
 TRUE if the connection is from a registered IP, FALSE otherwise.
