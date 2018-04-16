@@ -59,3 +59,8 @@ to call (e.g., `getauthornep`, `getauthortwitter`).
 * areyouthere
 * testip
 * whatismyip
+
+### Additional functions
+
+Not all the API methods are available in the package. Unfortunately I have
+not access to all of them, thus I don't know what they actually do.
