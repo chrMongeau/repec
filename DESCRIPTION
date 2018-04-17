@@ -9,6 +9,8 @@ Description: Utilities for accessing RePEc (Research Papers in Economics)
     through a RESTful API. You can request a code and get detailed
     information at the following page: https://ideas.repec.org/api.html
 License: MIT + file LICENSE
+URL: https://github.com/chrMongeau/repec
+BugReports: https://github.com/chrMongeau/repec/issues
 Imports:
     jsonlite,
     utils
