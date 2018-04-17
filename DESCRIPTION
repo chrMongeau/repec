@@ -2,8 +2,9 @@ Package: repec
 Type: Package
 Title: Access RePEc Data through API
 Version: 0.1.0
-Author: Christian A. Mongeau Ospina
-Maintainer: Christian A. Mongeau Ospina <christian+r-pkg@mongeau.net>
+Authors@R: person("Christian Alexander", "Mongeau Ospina",
+    email = "christian+r-repec@mongeau.net", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-4047-3924"))
 Description: Utilities for accessing RePEc (Research Papers in Economics)
     through a RESTful API. You can request a code and get detailed
     information at the following page: https://ideas.repec.org/api.html
