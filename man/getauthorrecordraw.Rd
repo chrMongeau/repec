@@ -4,10 +4,10 @@
 \alias{getauthorrecordraw}
 \title{Provides extended info about author}
 \usage{
-getauthorrecordraw(x, code = NA)
+getauthorrecordraw(id, code = NA)
 }
 \arguments{
-\item{x}{Short-ID.}
+\item{id}{Short-ID.}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}

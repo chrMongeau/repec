@@ -4,10 +4,10 @@
 \alias{getauthortwitter}
 \title{Provides Twitter handle}
 \usage{
-getauthortwitter(x, code = NA)
+getauthortwitter(id, code = NA)
 }
 \arguments{
-\item{x}{Short-ID.}
+\item{id}{Short-ID.}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}

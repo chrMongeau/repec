@@ -4,10 +4,10 @@
 \alias{getauthorrecordfull}
 \title{Provides info about author, mostly in the form of handles}
 \usage{
-getauthorrecordfull(x, code = NA)
+getauthorrecordfull(id, code = NA)
 }
 \arguments{
-\item{x}{Short-ID.}
+\item{id}{Short-ID.}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}
