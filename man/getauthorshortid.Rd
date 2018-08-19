@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthorshortid.R
 \name{getauthorshortid}
 \alias{getauthorshortid}
+\alias{get_author_short_id}
 \title{Get Short-ID and name from string in name or email}
 \usage{
 getauthorshortid(x, code = NA)
+
+get_author_short_id(x, code = NA)
 }
 \arguments{
 \item{x}{string.}

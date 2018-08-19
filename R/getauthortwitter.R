@@ -14,7 +14,10 @@
 #' @md
 #' @export
 
-
 getauthortwitter <- function(id, code = NA) {
   repec_api_with_id(method = 'getauthortwitter', id = id)
 }
+
+#' @rdname getauthortwitter
+#' @export
+get_author_twitter <- getauthortwitter

@@ -41,3 +41,7 @@ getauthorshortid <- function(x, code = NA) {
 
   return(res[cols_ord])
 }
+
+#' @rdname getauthorshortid
+#' @export
+get_author_short_id <- getauthorshortid

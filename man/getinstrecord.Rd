@@ -2,9 +2,12 @@
 % Please edit documentation in R/getinstrecord.R
 \name{getinstrecord}
 \alias{getinstrecord}
+\alias{get_inst_record}
 \title{Get record of Institution}
 \usage{
 getinstrecord(x, code = NA)
+
+get_inst_record(x, code = NA)
 }
 \arguments{
 \item{x}{RePEc handle for an institution}

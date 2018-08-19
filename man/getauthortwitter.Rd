@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthortwitter.R
 \name{getauthortwitter}
 \alias{getauthortwitter}
+\alias{get_author_twitter}
 \title{Provides Twitter handle}
 \usage{
 getauthortwitter(id, code = NA)
+
+get_author_twitter(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

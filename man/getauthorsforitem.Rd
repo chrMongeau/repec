@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthorsforitem.R
 \name{getauthorsforitem}
 \alias{getauthorsforitem}
+\alias{get_authors_for_item}
 \title{Get Authors for an item}
 \usage{
 getauthorsforitem(x, code = NA)
+
+get_authors_for_item(x, code = NA)
 }
 \arguments{
 \item{x}{RePEc handle for an item.}

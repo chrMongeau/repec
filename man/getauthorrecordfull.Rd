@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthorrecordfull.R
 \name{getauthorrecordfull}
 \alias{getauthorrecordfull}
+\alias{get_author_record_full}
 \title{Provides info about author, mostly in the form of handles}
 \usage{
 getauthorrecordfull(id, code = NA)
+
+get_author_record_full(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

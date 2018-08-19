@@ -16,3 +16,7 @@
 getauthornep <- function(id, code = NA) {
   repec_api_with_id(method = 'getauthornep', id = id)
 }
+
+#' @rdname getauthornep
+#' @export
+get_author_nep <- getauthornep

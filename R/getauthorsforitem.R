@@ -35,3 +35,7 @@ getauthorsforitem <- function(x, code = NA) {
 
   return(res)
 }
+
+#' @rdname getauthorsforitem
+#' @export
+get_authors_for_item <- getauthorsforitem

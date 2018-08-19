@@ -17,3 +17,7 @@
 getauthorstats <- function(id, code = NA) {
   repec_api_with_id(method = 'getauthorstats', id = id)
 }
+
+#' @rdname getauthorstats
+#' @export
+get_author_stats <- getauthorstats

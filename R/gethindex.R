@@ -17,3 +17,7 @@
 gethindex <- function(id, code = NA) {
   repec_api_with_id(method = 'gethindex', id = id)
 }
+
+#' @rdname gethindex
+#' @export
+get_h_index <- gethindex

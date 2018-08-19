@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthorrecordraw.R
 \name{getauthorrecordraw}
 \alias{getauthorrecordraw}
+\alias{get_author_record_raw}
 \title{Provides extended info about author}
 \usage{
 getauthorrecordraw(id, code = NA)
+
+get_author_record_raw(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

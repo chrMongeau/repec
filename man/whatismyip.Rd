@@ -2,9 +2,12 @@
 % Please edit documentation in R/whatismyip.R
 \name{whatismyip}
 \alias{whatismyip}
+\alias{what_is_myip}
 \title{Returns the IP address you use to call the API}
 \usage{
 whatismyip()
+
+what_is_myip()
 }
 \value{
 String with IP.

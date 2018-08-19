@@ -38,3 +38,7 @@ getjelforitem <- function(x, code = NA) {
 
   return(res)
 }
+
+#' @rdname getjelforitem
+#' @export
+get_jel_foritem <- getjelforitem

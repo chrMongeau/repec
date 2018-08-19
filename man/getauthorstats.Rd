@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthorstats.R
 \name{getauthorstats}
 \alias{getauthorstats}
+\alias{get_author_stats}
 \title{Provides Author's statistics}
 \usage{
 getauthorstats(id, code = NA)
+
+get_author_stats(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

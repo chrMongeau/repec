@@ -15,3 +15,6 @@ whatismyip <- function() {
   return(res)
 }
 
+#' @rdname whatismyip
+#' @export
+what_is_myip <- whatismyip

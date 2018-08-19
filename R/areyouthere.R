@@ -18,3 +18,7 @@ areyouthere <- function() {
     return(FALSE)
   }
 }
+
+#' @rdname areyouthere
+#' @export
+are_you_there <- areyouthere

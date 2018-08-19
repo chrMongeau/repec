@@ -2,9 +2,12 @@
 % Please edit documentation in R/getauthornep.R
 \name{getauthornep}
 \alias{getauthornep}
+\alias{get_author_nep}
 \title{Get the NEP fields for the papers of an author}
 \usage{
 getauthornep(id, code = NA)
+
+get_author_nep(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

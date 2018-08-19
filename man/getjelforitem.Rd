@@ -2,9 +2,12 @@
 % Please edit documentation in R/getjelforitem.R
 \name{getjelforitem}
 \alias{getjelforitem}
+\alias{get_jel_foritem}
 \title{Get JEL codes for item}
 \usage{
 getjelforitem(x, code = NA)
+
+get_jel_foritem(x, code = NA)
 }
 \arguments{
 \item{x}{RePEc handle for an item.}

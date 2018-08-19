@@ -35,3 +35,7 @@ getinstrecord <- function(x, code = NA) {
 
   return(res)
 }
+
+#' @rdname getinstrecord
+#' @export
+get_inst_record <- getinstrecord

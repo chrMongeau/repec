@@ -2,9 +2,12 @@
 % Please edit documentation in R/getgenealogy.R
 \name{getgenealogy}
 \alias{getgenealogy}
+\alias{get_genealogy}
 \title{Provides Author's genealogy}
 \usage{
 getgenealogy(id, code = NA)
+
+get_genealogy(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

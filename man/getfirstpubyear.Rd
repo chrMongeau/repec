@@ -2,9 +2,12 @@
 % Please edit documentation in R/getfirstpubyear.R
 \name{getfirstpubyear}
 \alias{getfirstpubyear}
+\alias{get_first_pub_year}
 \title{Provides Author's first publication year}
 \usage{
 getfirstpubyear(id, code = NA)
+
+get_first_pub_year(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

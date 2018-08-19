@@ -2,9 +2,12 @@
 % Please edit documentation in R/gethindex.R
 \name{gethindex}
 \alias{gethindex}
+\alias{get_h_index}
 \title{Provides H-index}
 \usage{
 gethindex(id, code = NA)
+
+get_h_index(id, code = NA)
 }
 \arguments{
 \item{id}{Short-ID.}

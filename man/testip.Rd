@@ -2,9 +2,12 @@
 % Please edit documentation in R/testip.R
 \name{testip}
 \alias{testip}
+\alias{test_ip}
 \title{Verifies whether the connection is performed from the registered IP}
 \usage{
 testip(code = NA)
+
+test_ip(code = NA)
 }
 \arguments{
 \item{code}{User code required to use API. Included in every API call.

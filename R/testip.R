@@ -31,3 +31,6 @@ testip <- function(code = NA) {
   return(grepl('OK', res$testip))
 }
 
+#' @rdname testip
+#' @export
+test_ip <- testip

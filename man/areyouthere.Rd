@@ -2,9 +2,12 @@
 % Please edit documentation in R/areyouthere.R
 \name{areyouthere}
 \alias{areyouthere}
+\alias{are_you_there}
 \title{Verifies whether the server is alive}
 \usage{
 areyouthere()
+
+are_you_there()
 }
 \value{
 TRUE if the server if alive, FALSE otherwise.
