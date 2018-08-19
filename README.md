@@ -17,11 +17,11 @@ devtools::install_github('chrMongeau/repec')
 ## Configuration
 
 You will need to ask for an access code (see link above) that is linked
-to a specific IP. The code will then needs to be used when calling most
+to a specific IP. The code will be needed when calling most
 of the functions by using the `code` parameter (see below). One way to
 avoid passing explicitly the code is to create the `REPEC_API_KEY`
 environment variable. The code below can be put in your `.RProfile` so
-that it's always available when you start R:
+that it is always available when you start R:
 
 ```r
 # YOURCODE is your personal access code
