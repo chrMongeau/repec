@@ -34,14 +34,20 @@ The functions generally accept a Short-ID (e.g., pmo915)  or a string.
 
 ### Functions with string
 
-* getauthorshortid
+* `getauthorshortid`
 
 ### Functions with Short-ID
 
-* getauthornep
-* getauthorrecordfull
-* getauthorrecordraw
-* getauthortwitter
+* `getauthornep`
+* `getauthorrecordfull`
+* `getauthorrecordraw`
+* `getauthorstats`
+* `getauthortwitter`
+* `getfirstpubyear`
+* `getgenealogy`
+* `gethindex`
+* `getinstrecord`
+* `getjelforitem`
 
 There is a generic function (`repec_api_with_id`) that can be used to call
 one of the methods that use a Short-ID and is not yet available in the
@@ -56,11 +62,19 @@ to call (e.g., `getauthornep`, `getauthortwitter`).
 
 ### Other functions
 
-* areyouthere
-* testip
-* whatismyip
+* `areyouthere`
+* `testip`
+* `whatismyip`
+
+### Functions aliases
+
+Functions were named according to the API method, but they have underscored
+aliases that make them more readable. For instance, `getauthornep(...)` can
+be called as `get_author_nep(...)`, `whatismyip(...)` as `what_is_my_ip(...)`,
+etc. You probably get the point.
 
 ### Additional functions
 
 Not all the API methods are available in the package. Unfortunately I have
-not access to all of them, thus I don't know what they actually do.
+not access to all of them, thus I don't know what they actually do. If you
+want a function to be added, and know what it returns, please open an issue.
