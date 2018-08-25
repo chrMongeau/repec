@@ -5,12 +5,12 @@
 \alias{get_inst_record}
 \title{Get record of Institution}
 \usage{
-getinstrecord(x, code = NA)
+getinstrecord(id, code = NA)
 
-get_inst_record(x, code = NA)
+get_inst_record(id, code = NA)
 }
 \arguments{
-\item{x}{RePEc handle for an institution}
+\item{id}{RePEc handle for an institution}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}

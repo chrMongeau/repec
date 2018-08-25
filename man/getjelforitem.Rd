@@ -5,12 +5,12 @@
 \alias{get_jel_foritem}
 \title{Get JEL codes for item}
 \usage{
-getjelforitem(x, code = NA)
+getjelforitem(id, code = NA)
 
-get_jel_foritem(x, code = NA)
+get_jel_foritem(id, code = NA)
 }
 \arguments{
-\item{x}{RePEc handle for an item.}
+\item{id}{RePEc handle for an item.}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}

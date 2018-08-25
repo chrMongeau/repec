@@ -5,12 +5,12 @@
 \alias{get_authors_for_item}
 \title{Get Authors for an item}
 \usage{
-getauthorsforitem(x, code = NA)
+getauthorsforitem(id, code = NA)
 
-get_authors_for_item(x, code = NA)
+get_authors_for_item(id, code = NA)
 }
 \arguments{
-\item{x}{RePEc handle for an item.}
+\item{id}{RePEc handle for an item.}
 
 \item{code}{User code required to use API. Included in every API call.
 If not supplied, the REPEC_API_KEY environment variable will be used.}

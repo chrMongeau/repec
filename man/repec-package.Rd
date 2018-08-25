@@ -8,6 +8,7 @@
 \description{
 \code{repec} provides a way to interact with the RePEc API (Application
 Programming Interface) in order to get various information stored
+on RePEc about authors, items, institutions, etc.
 }
 \details{
 By using the functions of this package, you will be able to import
@@ -30,6 +31,6 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Christian Alexander Mongeau Ospina \email{christian+r-repec@mongeau.net} (0000-0002-4047-3924)
+\strong{Maintainer}: Christian Alexander Mongeau Ospina \email{christian+rpkg-repec@mongeau.net} (0000-0002-4047-3924)
 
 }
