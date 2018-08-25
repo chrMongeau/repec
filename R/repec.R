@@ -6,7 +6,7 @@
 #'
 #' By using the functions of this package, you will be able to import
 #' RePEc information in R. You will need to ask for an access code
-#' by following the instructions at https://ideas.repec.org/api.html
+#' by following the instructions at <https://ideas.repec.org/api.html>.
 #' The code will be needed when calling most of the functions by using
 #' the `code` parameter. One way to avoid passing explicitly the code
 #' is to create the `REPEC_API_KEY` environment variable. The code below
