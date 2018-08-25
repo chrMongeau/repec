@@ -1,13 +1,13 @@
 Package: repec
 Type: Package
-Title: Access RePEc Data through API
+Title: Access RePEc Data Through API
 Version: 0.1.0
 Authors@R: person("Christian Alexander", "Mongeau Ospina",
     email = "christian+rpkg-repec@mongeau.net", role = c("aut", "cre"),
     comment = c(ORCID = "0000-0002-4047-3924"))
 Description: Utilities for accessing RePEc (Research Papers in Economics)
     through a RESTful API. You can request a code and get detailed
-    information at the following page: https://ideas.repec.org/api.html
+    information at the following page: <https://ideas.repec.org/api.html>
 License: MIT + file LICENSE
 URL: https://github.com/chrMongeau/repec
 BugReports: https://github.com/chrMongeau/repec/issues
