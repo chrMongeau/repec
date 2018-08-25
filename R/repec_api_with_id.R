@@ -41,5 +41,9 @@ repec_api_with_id <- function(id = NA, method = NA, code = NA) {
 
   res <- jsonlite::fromJSON(f)
 
+  if ('error' %in% names(res)) {
+    stop('RePEc API returned an error. Are you using a valid `code`?')
+  }
+
   return(res)
 }
