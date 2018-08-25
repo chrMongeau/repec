@@ -14,7 +14,7 @@
 #' @export
 
 getauthorsforitem <- function(id, code = NA) {
-  repec_api_with_id(method = 'getauthorsforitem', id = id)
+  repec_api_with_id(method = 'getauthorsforitem', id = id, code = code)
 }
 
 #' @rdname getauthorsforitem

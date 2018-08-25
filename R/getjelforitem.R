@@ -14,7 +14,7 @@
 #' @export
 
 getjelforitem <- function(id, code = NA) {
-  repec_api_with_id(method = 'getjelforitem', id = id)
+  repec_api_with_id(method = 'getjelforitem', id = id, code = code)
 }
 
 #' @rdname getjelforitem

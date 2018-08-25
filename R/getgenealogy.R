@@ -15,7 +15,7 @@
 #' @export
 
 getgenealogy <- function(id, code = NA) {
-  repec_api_with_id(method = 'getgenealogy', id = id)
+  repec_api_with_id(method = 'getgenealogy', id = id, code = code)
 }
 
 #' @rdname getgenealogy

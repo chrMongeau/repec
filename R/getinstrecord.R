@@ -14,7 +14,7 @@
 #' @export
 
 getinstrecord <- function(id, code = NA) {
-  repec_api_with_id(method = 'getinstrecord', id = id)
+  repec_api_with_id(method = 'getinstrecord', id = id, code = code)
 }
 
 #' @rdname getinstrecord

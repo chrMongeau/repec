@@ -15,7 +15,7 @@
 #' @export
 
 getfirstpubyear <- function(id, code = NA) {
-  repec_api_with_id(method = 'getfirstpubyear', id = id)
+  repec_api_with_id(method = 'getfirstpubyear', id = id, code = code)
 }
 
 #' @rdname getfirstpubyear

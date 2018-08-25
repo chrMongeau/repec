@@ -14,7 +14,7 @@
 #' @export
 
 getauthorrecordfull <- function(id, code = NA) {
-  repec_api_with_id(method = 'getauthorrecordfull', id = id)
+  repec_api_with_id(method = 'getauthorrecordfull', id = id, code = code)
 }
 
 #' @rdname getauthorrecordfull

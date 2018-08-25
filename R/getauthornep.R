@@ -14,7 +14,7 @@
 #' @export
 
 getauthornep <- function(id, code = NA) {
-  repec_api_with_id(method = 'getauthornep', id = id)
+  repec_api_with_id(method = 'getauthornep', id = id, code = code)
 }
 
 #' @rdname getauthornep

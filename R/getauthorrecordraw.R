@@ -15,7 +15,7 @@
 #' @export
 
 getauthorrecordraw <- function(id, code = NA) {
-  repec_api_with_id(method = 'getauthorrecordraw', id = id)
+  repec_api_with_id(method = 'getauthorrecordraw', id = id, code = code)
 }
 
 #' @rdname getauthorrecordraw
