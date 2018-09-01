@@ -1,12 +1,22 @@
 # repec
 
+[![GitHub release](https://img.shields.io/github/release/chrmongeau/repec.svg)](https://github.com/chrMongeau/repec/releases)
+[![CRAN](https://www.r-pkg.org/badges/version/repec)](https://cran.r-project.org/package=repec)
+
 [R](https://www.r-project.org/) package to interact with the RePEc API.
 
 See: https://ideas.repec.org/api.html
 
 ## Installation
 
-You can install it by using the `devtools` package:
+This package is on [CRAN](https://cran.r-project.org/package=repec). To
+install it, type in your R console:
+
+```r
+install.packages('repec')
+```
+
+To install the latest version, you can use the `devtools` package:
 
 ```r
 # install.packages('devtools') # If not already installed
@@ -30,7 +40,7 @@ Sys.setenv(REPEC_API_KEY = 'YOURCODE')
 
 ## Usage
 
-The functions generally accept a Short-ID (e.g., pmo915)  or a string.
+The functions generally accept a Short-ID (e.g., pmo915) or a string.
 
 ### Functions with string
 
